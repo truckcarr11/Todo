@@ -1,0 +1,48 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.appHeader {
+  display: block;
+  margin-bottom: 0px !important;
+  background-color: #292929;
+  color: white !important;
+  width: 100%;
+  text-align: center;
+}
+
+.addTodoContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.addTodoInput {
+  padding-right: 5px;
+}
+
+.todoItem {
+  cursor: pointer;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todoItem:after {
+  content: none !important;
+}
+
+.todoItemText {
+  display: inline !important;
+}
+
+.todoItemButton {
+  float: right;
+}
+
+.todoList {
+  width: 50%;
+}
